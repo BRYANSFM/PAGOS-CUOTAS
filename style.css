@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(247, 247, 255);
+}
+
+.main{
+    background-color:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal{
+    margin-top: 20px;
+    color: rgb(89, 91, 113);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parte2{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 75px;
+}
+
+.boton{
+    background-color: rgb(144, 149, 235) ;
+    width: 50px;
+    height: 25px;
+    border-radius: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.boton-interior{
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    margin: 4px;
+}
+
+.contenido{
+    display: flex;
+    width: 1025px;
+    height: 480px;
+    justify-content: center;
+}
+
+.contenido1y3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 341.666666667px;
+    margin: 20px 0px;
+    color: rgb(66, 68, 83);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido2{
+    background-color: rgb(144, 149, 235);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 341.666666667px;
+    padding: 21px 0px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-1y3{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 18.5px;
+}
+
+.titulo-2{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 18.5px;
+}
+
+.costo1y3{
+    display: flex;
+    justify-content: center;
+}
+
+.costo2{
+    display: flex;
+    justify-content: center;
+}
+
+.simbolo1y3{
+    display: flex;
+    align-items: center;
+   font-size: 40px;
+}
+
+.simbolo2{
+    display: flex;
+    align-items: center;
+   font-size: 40px;
+}
+
+.cantidad1y3{
+    display: flex;
+    align-items: center;
+   font-size: 70px;
+}
+
+.cantidad2{
+    display: flex;
+    align-items: center;
+   font-size: 70px;
+}
+
+.especificaciones1y3{ 
+  width: 250px;
+  padding-top: 23px;
+  font-family: 'Belanosima', sans-serif;
+  border-top: 2px solid rgb(217, 215, 215);
+  display: flex;
+  justify-content: center;  
+}
+
+.especificaciones2{
+  width: 250px;
+  padding-top: 23px;
+  font-family: 'Belanosima', sans-serif;
+  border-top: 2px solid rgb(217, 215, 215);
+  display: flex;
+  justify-content: center; 
+}
+
+.leer-mas1y3{
+    font-family: 'Belanosima', sans-serif;
+    border:2px rgb(224, 222, 248) solid;
+    border-radius: 7px;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    color: rgb(144, 149, 235);
+}
+
+.leer-mas2{
+    font-family: 'Belanosima', sans-serif;
+    border:2px white solid;
+    border-radius: 7px;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    color: white;
+}
+
+h5{
+    color: rgb(171, 171, 181);
+}
